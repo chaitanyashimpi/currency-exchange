@@ -1,5 +1,6 @@
 # Currency Exchange Rate Calculator
-file:///home/cratonik/Portfolio/Projects/CurCal%20-%20Currency%20Exchange.png
+
+![image](https://user-images.githubusercontent.com/36589853/118485796-7856bf00-b736-11eb-9da0-8e54063d4898.png)
 
 
  What will be covered in this Repo:
