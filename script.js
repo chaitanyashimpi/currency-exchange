@@ -3,6 +3,12 @@ const swap = document.getElementById('swap');
 const btn = document.getElementById('btn');
 const num = document.getElementById('num');
 const ans = document.getElementById('ans');
+const date = document.getElementById('date');
+
+let d = new Date();
+date.innerHTML = `${d.getDate()}th ${d.toLocaleString('default', {
+  month: 'long',
+})} ${d.getFullYear()}`;
 
 fetch('https://api.frankfurter.app/currencies')
   .then((data) => data.json())
