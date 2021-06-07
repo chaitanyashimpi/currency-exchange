@@ -24,6 +24,9 @@ const display = (data) => {
     select[0].innerHTML += `<option value = "${entries[i][0]}">${entries[i][0]}</option>`;
     select[1].innerHTML += `<option value = "${entries[i][0]}">${entries[i][0]}</option>`;
   }
+  // Setting the default values of currencies
+  select[0].innerHTML += `<option value = "${entries[31][0]}" selected>${entries[31][0]}</option>`;
+  select[1].innerHTML += `<option value = "${entries[15][0]}" selected>${entries[15][0]}</option>`;
 };
 
 function switchText() {
