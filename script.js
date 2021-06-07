@@ -6,9 +6,11 @@ const ans = document.getElementById('ans');
 const date = document.getElementById('date');
 
 let d = new Date();
-date.innerHTML = `${d.getDate()}th ${d.toLocaleString('default', {
-  month: 'long',
-})} ${d.getFullYear()}`;
+date.innerHTML = `${d.getDate()}th ${d
+  .toLocaleString('default', {
+    month: 'long',
+  })
+  .toUpperCase()} ${d.getFullYear()}`;
 
 fetch('https://api.frankfurter.app/currencies')
   .then((data) => data.json())
